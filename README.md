@@ -171,3 +171,23 @@ pulseaudio --start
 
 
 # 7. Bluetooth
+**Install bluez-utils & blueman**
+```
+sudo pacman -Syu bluez-utils blueman
+```
+Install pavucontrol & pavucontrol-qt
+```
+sudo pacman -Syu pavucontrol pavucontrol-qt
+```
+Start Bluetooth
+```
+sudo systemctl start bluetooth
+```
+Start Bluetooth At Boot
+```
+sudo systemctl enable bluetooth
+```
+Open Bluetooth GUI
+```
+blueman-manager
+```
