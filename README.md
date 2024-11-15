@@ -191,3 +191,7 @@ Open Bluetooth GUI
 ```
 blueman-manager
 ```
+Steps
+* Pair MAC
+* Trust MAC
+* Connect MAC
