@@ -159,6 +159,14 @@ interval=10
 ```
 sudo pacman -Syu pulseaudio-bluetooth
 ```
+Kill all
+```
+sudo killall pulseaudio
+```
+Start pulseaudio
+```
+pulseaudio --start
+```
 
 
 
