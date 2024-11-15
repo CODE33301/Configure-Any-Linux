@@ -7,6 +7,9 @@ Configure Any Linux
 3. [Display Manager](#22-Display-Manager)
 4. [Window Manager](#23-Window-Manager)
 5. [Status Bars](#5-status-bars)
+6. [Audio](#6-audio)
+7. [Bluetooth](#7-bluetooth)
+
 
 
 # 1. Display Server
@@ -94,7 +97,6 @@ bar {
     ...
 }
 ```
-
 ### i3status
 <b>Install i3blocks</b><br>
 Arch Linux
@@ -122,7 +124,6 @@ tztime local {
         format = "%A, %B %d %Y %I:%M %p"
 }
 ```
-
 ### i3block
 <b>Install i3blocks</b><br>
 Arch Linux
@@ -150,3 +151,15 @@ Show Battery Life Dynamic
 command=cat /sys/class/power_supply/BAT0/capacity 
 interval=10
 ```
+
+
+
+# 6. Audio
+**Install pulseaudio-bluetooth**
+```
+sudo pacman -Syu pulseaudio-bluetooth
+```
+
+
+
+# 7. Bluetooth
