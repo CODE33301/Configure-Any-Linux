@@ -1,32 +1,33 @@
 # Arch
-
 ## Configuration Steps
-1. [Display Server](#20-Display-Server)
-2. [Graphics Driver](#21-Graphics-Driver)
-3. [Display Manager](#22-Display-Manager)
-4. [Window Manager](#23-Window-Manager)
+1. [Display Server](#1-display-server)
+2. [Graphics Driver](#2-graphics-driver)
+3. [Display Manager](#3-display-manager)
+4. [Window Manager](#4-window-manager)
 5. [Status Bars](#5-status-bars)
 6. [Audio](#6-audio)
 7. [Bluetooth](#7-bluetooth)
-
-
-
+<!--#########################################################-->
 # 1. Display Server
-Install Packages
+## Xorg
+Install Xorg
 ```shell
 sudo pacman -S xorg-server xorg-apps xorg-xinit
 ```
+## Wayland
+Install Wayland
+```shell
+sudo pacman -S wayland
+```
+You Can Check The Current Running Display Server: `echo $XDG_SESSION_TYPE`
 
-
-
+<!--#########################################################-->
 # 2. Graphics Driver
 Install VGA Compatible Controller
 ```shell
 sudo pacman -S xf86-video-ati
 ```
-
-
-
+<!--#########################################################-->
 # 3. Display Manager
 ## Pick Login Theme
 Default Greeter
@@ -73,9 +74,7 @@ Enable lightdm
 ```shell
 sudo systemctl enable lightdm
 ```
-
-
-
+<!--#########################################################-->
 # 4. Window Manager
 ## i3
 Config Location
@@ -112,7 +111,13 @@ bar {
     }
 }
 ```
-
+## Hyprland
+### Installation
+Install hyprland - The latest upstream release: `sudo pacman -S hyprland`
+### Configuration
+Configuration is done through a single configuration file
+The default file is `/usr/share/hypr/hyprland.conf`
+<!--#########################################################-->
 # 5. Status Bars
 <b>Status Bars List</b>
 * [i3status](#i3status)
@@ -183,10 +188,9 @@ Show Battery Life Dynamic
 command=cat /sys/class/power_supply/BAT0/capacity 
 interval=10
 ```
-
-
-
+<!--#########################################################-->
 # 6. Audio
+Works With XORG & Wayland
 ## Arch Linux
 **Install pulseaudio-bluetooth**
 ```
@@ -204,8 +208,7 @@ Install pavucontrol & pavucontrol-qt
 ```
 sudo pacman -Syu pavucontrol pavucontrol-qt
 ```
-
-
+<!--#########################################################-->
 # 7. Bluetooth
 ## Arch Linux
 Install bluez-utils & blueman
