@@ -10,14 +10,11 @@ screens = [
         top=bar.Bar(
             ...
 ```
-## Run Rofi
-```python
-keys = [
-    # My Keys
-    Key([mod], "p", lazy.spawn("rofi -show run"), desc="Run Rofi")
-    ...
-```
-
+|    Keys    |        Notes        |
+|------------|---------------------|
+|   `MOD+p`  |       Run Rofi      |
+|   `MOD+q`  | Kill Focused Window |
+|`MOD+Ctrl+q`|      Exit Qtile     |
 
 # LightDM
 ## Pick Login Theme
