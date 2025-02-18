@@ -1,4 +1,23 @@
 # Ly
+## Download ly
+sudo pacman -S ly
+## Start & Enable W Systemd
+sudo systemd enable ly
+## Bar Location
+```python
+screens = [
+    Screen(
+        top=bar.Bar(
+            ...
+```
+## Run Rofi
+```python
+keys = [
+    # My Keys
+    Key([mod], "p", lazy.spawn("rofi -show run"), desc="Run Rofi")
+    ...
+```
+
 
 # LightDM
 ## Pick Login Theme

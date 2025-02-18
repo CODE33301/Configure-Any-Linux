@@ -1,3 +1,7 @@
+# Qtile
+Download Qtile
+sudo pacman -S qtile
+
 # i3
 Config Location
 ```

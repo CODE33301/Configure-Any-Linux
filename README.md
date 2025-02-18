@@ -16,6 +16,7 @@
 1. [**Graphics Driver**](Arch/graphicsDriver.md)
 1. [**Display Manager**](Arch/displayManager.md)
 1. [**Window Manager**](Arch/windowManager.md)
+1. [**Window Switcher**](Arch/windowSwitcher.md)
 1. [**Status Bars**](Arch/statusBars.md)
 1. [**Audio**](Arch/audio.md)
 1. [**Bluetooth**](Arch/bluetooth.md)
