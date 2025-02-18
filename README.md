@@ -1,19 +1,14 @@
-# Configure-Any-Linux
-* Linux Base
-* Window Managers
-* Compositors
-* Display Server
+# Linux Base
+## Debian | Configuration Steps
+1. **Display Server**
+    * Wayland
+    * Xorg
+1. **Display Manager**
+    * ...
 
-## Linux Base
-* [Debian](debian.md)
-* [Arch](arch.md)
-
-## Window Managers
-* [awesomeWM](awesomeWM/README.md)
-
-## Compositors
-* [Picom](picom.md)
-
-## Display Server
-* Xorg
-* Wayland
+## Arch | Configuration Steps
+1. **Display Server**
+    * [Wayland](Arch/wayland.md)
+    * [Xorg](Arch/XORG.md)
+1. **Display Manager**
+    * [Ly](Arch/ly.md)
