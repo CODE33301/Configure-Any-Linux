@@ -3,6 +3,32 @@ Download Qtile
 ```sh
 sudo pacman -S qtile
 ```
+## Bar Location
+```python
+screens = [
+    Screen(
+        top=bar.Bar(
+            ...
+```
+| Keys                | Notes                          |
+|---------------------|--------------------------------|
+| `MOD+p`             | Run Rofi                       |
+| `MOD+q`             | Kill Focused Window            |
+| `MOD+Ctrl+q`        | Exit Qtile                     |
+| `MOD+Return`        | Launch terminal                |
+| `MOD+Left`          | Switch Between Windows - Left  |
+| `MOD+Up`            | Switch Between Windows - Up    |
+| `MOD+Right`         | Switch Between Windows - Right |
+| `MOD+Down`          | Switch Between Windows - Down  |
+| `MOD+space`         | Switch Between Windows         |
+| `MOD+shift+Left`    | Move Between Windows - Left    |
+| `MOD+shift+Up`      | Move Between Windows - Up      |
+| `MOD+shift+Right`   | Move Between Windows - Right   |
+| `MOD+shift+Down`    | Move Between Windows - Down    |
+| `MOD+control+Left`  | Grow windows - Left            |
+| `MOD+control+Up`    | Grow windows - Up              |
+| `MOD+control+Right` | Grow windows - Right           |
+| `MOD+control+Down`  | Grow windows - Down            |
 
 # i3
 Config Location

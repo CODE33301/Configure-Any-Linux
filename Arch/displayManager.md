@@ -3,18 +3,6 @@
 sudo pacman -S ly
 ## Start & Enable W Systemd
 sudo systemd enable ly
-## Bar Location
-```python
-screens = [
-    Screen(
-        top=bar.Bar(
-            ...
-```
-|    Keys    |        Notes        |
-|------------|---------------------|
-|   `MOD+p`  |       Run Rofi      |
-|   `MOD+q`  | Kill Focused Window |
-|`MOD+Ctrl+q`|      Exit Qtile     |
 
 # LightDM
 ## Pick Login Theme
