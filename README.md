@@ -2,8 +2,9 @@
 * [Debian](#debian--configuration-steps)
 * [Arch](#arch--configuration-steps)
 
-## Debian | Configuration Steps
+## Debian | Configuration Steps | Note: Currenly using Arch for 2025 and will use Debian for 2026
 1. **Display Server**
+    1. [**Compositor**]
 1. **Graphics Driver**
 1. **Display Manager**
 1. **Window Manager**
@@ -13,6 +14,7 @@
 
 ## Arch | Configuration Steps
 1. [**Display Server**](Arch/displayServerProtocol.md)
+    1. [**Compositor**]
 1. [**Graphics Driver**](Arch/graphicsDriver.md)
 1. [**Display Manager**](Arch/displayManager.md)
 1. [**Window Manager**](Arch/windowManager.md)
