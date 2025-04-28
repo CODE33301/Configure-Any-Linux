@@ -9,7 +9,7 @@
 1. **Display Manager**
 1. [**Window Manager**](Debian/windowManager.md)
 1. [**Window Switcher**](Debian/windowSwitcher.md)
-1. **Status Bars**
+1. [**Status Bars**](Debian/statusBars.md)
 1. **Audio**
 1. **Bluetooth**
 
