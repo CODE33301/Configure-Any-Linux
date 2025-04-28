@@ -7,7 +7,7 @@
     1. [**Compositor**](Debian/compositor.md)
 1. **Graphics Driver**
 1. **Display Manager**
-1. **Window Manager**
+1. [**Window Manager**](Debian/windowManager.md)
 1. **Window Switcher**
 1. **Status Bars**
 1. **Audio**
