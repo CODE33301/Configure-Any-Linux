@@ -4,7 +4,7 @@
 
 ## Debian | Configuration Steps
 1. [**Display Server**](Debian/displayServerProtocol.md)
-    1. [**Compositor**]
+    1. [**Compositor**](Debian/compositor.md)
 1. **Graphics Driver**
 1. **Display Manager**
 1. **Window Manager**
