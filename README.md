@@ -12,6 +12,7 @@
 1. [**Status Bars**](Debian/statusBars.md)
 1. **Audio**
 1. **Bluetooth**
+1. [**Terminal**](Debian/terminals.md)
 
 ## Arch | Configuration Steps
 1. [**Display Server**](Arch/displayServerProtocol.md)
@@ -23,3 +24,4 @@
 1. [**Status Bars**](Arch/statusBars.md)
 1. [**Audio**](Arch/audio.md)
 1. [**Bluetooth**](Arch/bluetooth.md)
+1. **Terminal**
